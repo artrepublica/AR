@@ -144,10 +144,10 @@ a {
 }
 
 .paragraph {
-  font-family: Sundaylove, 'Trebuchet MS', sans-serif;
+  font-family: gill-sans-nova, sans-serif;
   font-size: 36px;
   line-height: 42px;
-  font-weight: 400;
+  font-weight: 500;
   text-align: center;
   letter-spacing: 6px;
   text-indent: -10px;
@@ -209,6 +209,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   width: 976px;
   height: 800px;
   margin-top: -116px;
@@ -242,7 +243,7 @@ a {
 }
 
 .section {
-  margin-top: 60px;
+  padding-top: 60px;
 }
 
 .lottie-animation {
@@ -1266,11 +1267,6 @@ a {
   padding-top: 56.25%;
 }
 
-.bold-text {
-  font-family: Sundaylove, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
-}
-
 .paragraph-12 {
   font-size: 19px;
 }
@@ -1330,10 +1326,6 @@ a {
     text-indent: -3px;
   }
 
-  .container-3 {
-    overflow: hidden;
-  }
-
   .paragraph-2 {
     width: 670px;
     margin-top: 21px;
@@ -1361,7 +1353,6 @@ a {
   }
 
   .lottie {
-    overflow: hidden;
     width: 100vw;
   }
 
@@ -1576,7 +1567,6 @@ a {
   }
 
   .lottie-animation {
-    overflow: hidden;
     width: 480px;
   }
 
