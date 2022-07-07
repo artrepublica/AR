@@ -553,14 +553,14 @@ a {
 }
 
 .link-block {
-  padding-right: 10px;
+  padding-right: 5px;
   padding-bottom: 10px;
   padding-left: 10px;
   opacity: 0.55;
   -webkit-transition: opacity 200ms ease;
   transition: opacity 200ms ease;
   color: #fff;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
 }
