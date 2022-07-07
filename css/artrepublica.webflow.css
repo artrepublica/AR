@@ -570,7 +570,6 @@ a {
 }
 
 .podmenu_projekty {
-  width: 50%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
