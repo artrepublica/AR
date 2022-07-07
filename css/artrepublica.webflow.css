@@ -144,10 +144,10 @@ a {
 }
 
 .paragraph {
-  font-family: gill-sans-nova, sans-serif;
+  font-family: Sundaylove, 'Trebuchet MS', sans-serif;
   font-size: 36px;
   line-height: 42px;
-  font-weight: 500;
+  font-weight: 400;
   text-align: center;
   letter-spacing: 6px;
   text-indent: -10px;
@@ -224,7 +224,6 @@ a {
 }
 
 .paragraph-4 {
-  display: none;
   margin-top: -9px;
   margin-bottom: 46px;
   font-family: century-gothic, sans-serif;
@@ -349,6 +348,7 @@ a {
 }
 
 .section-2.dark {
+  overflow: hidden;
   background-image: url('../images/BG_Dark_80.png');
   background-size: auto;
   background-attachment: fixed;
@@ -381,6 +381,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  overflow: hidden;
   height: 60px;
 }
 
@@ -569,7 +570,6 @@ a {
 }
 
 .podmenu_projekty {
-  display: none;
   width: 50%;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -689,10 +689,12 @@ a {
 }
 
 .google-maps {
+  overflow: hidden;
   margin-bottom: -4px;
 }
 
 .section-6 {
+  overflow: hidden;
   padding-top: 60px;
   padding-bottom: 120px;
 }
@@ -1264,6 +1266,26 @@ a {
   padding-top: 56.25%;
 }
 
+.bold-text {
+  font-family: Sundaylove, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+
+.paragraph-12 {
+  font-size: 19px;
+}
+
+.heading-3 {
+  font-size: 20px;
+  line-height: 28px;
+  font-weight: 400;
+}
+
+.heading-4 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     font-size: 18px;
@@ -1308,6 +1330,10 @@ a {
     text-indent: -3px;
   }
 
+  .container-3 {
+    overflow: hidden;
+  }
+
   .paragraph-2 {
     width: 670px;
     margin-top: 21px;
@@ -1347,6 +1373,10 @@ a {
     flex: 0 0 auto;
   }
 
+  .section-2 {
+    overflow: hidden;
+  }
+
   .txt._40 {
     margin-top: 20px;
   }
@@ -1364,6 +1394,10 @@ a {
 
   .podmenu_projekty {
     padding-left: 0px;
+  }
+
+  .container-8 {
+    overflow: hidden;
   }
 
   .image-4 {
@@ -1905,6 +1939,23 @@ a {
   .paragraph-5 {
     padding-right: 10px;
     padding-left: 10px;
+  }
+
+  .podmenu_projekty {
+    margin-top: 40px;
+    text-align: center;
+  }
+
+  .div-block-8 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -webkit-flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
   }
 
   .paragraph-8 {
