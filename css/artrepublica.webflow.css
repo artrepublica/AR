@@ -188,6 +188,7 @@ a {
 }
 
 .misja {
+  overflow: hidden;
   margin-top: -353px;
 }
 
@@ -344,6 +345,7 @@ a {
 }
 
 .section-2 {
+  overflow: hidden;
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -1362,10 +1364,6 @@ a {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-  }
-
-  .section-2 {
-    overflow: hidden;
   }
 
   .txt._40 {
