@@ -379,7 +379,7 @@ a {
   justify-content: space-around;
 }
 
-._60 {
+.s60 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -388,11 +388,11 @@ a {
   height: 60px;
 }
 
-._60.nagrody {
+.s60.nagrody {
   display: none;
 }
 
-._60.podstrona {
+.s60.podstrona {
   margin-top: 60px;
 }
 
@@ -1066,7 +1066,7 @@ a {
 .logo {
   width: 300px;
   margin: 5px;
-  padding: 50px;
+  padding: 80px;
   border-radius: 18px;
   background-color: #fff;
 }
@@ -1075,17 +1075,36 @@ a {
   margin: 0px;
 }
 
-.logo.jaskolka {
-  padding: 24px;
-  background-color: #ff0241;
+.logo._40 {
+  padding: 40px;
+}
+
+.logo._40.red {
+  background-color: #ff023d;
 }
 
 .logo.facelab {
-  padding: 35px;
+  padding: 60px;
 }
 
-.logo.l {
-  padding: 56px;
+.logo._20 {
+  padding: 20px;
+}
+
+.logo._60 {
+  padding: 60px;
+}
+
+.logo._30 {
+  padding: 30px;
+}
+
+.logo._50 {
+  padding: 50px;
+}
+
+.logo._70 {
+  padding: 70px;
 }
 
 .div-block-92 {
