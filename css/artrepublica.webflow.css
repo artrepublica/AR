@@ -426,6 +426,7 @@ a {
 }
 
 .s60.podstrona.dark {
+  margin-top: 0px;
   background-image: url('../images/BG_Dark_80.png');
   background-position: 0px 0px;
   background-size: auto;
@@ -434,6 +435,10 @@ a {
 .s60.podstrona.dark._1 {
   margin-top: 0px;
   padding-top: 120px;
+}
+
+.s60.podstrona.dark._120 {
+  height: 120px;
 }
 
 .section-3 {
