@@ -425,13 +425,13 @@ a {
   margin-top: 60px;
 }
 
-.s60.podstrona.line {
+.s60.podstrona.dark {
   background-image: url('../images/BG_Dark_80.png');
   background-position: 0px 0px;
   background-size: auto;
 }
 
-.s60.podstrona.line._1 {
+.s60.podstrona.dark._1 {
   margin-top: 0px;
   padding-top: 120px;
 }
@@ -1001,6 +1001,7 @@ a {
 .div_grid._0 {
   margin-right: 0px;
   margin-left: 0px;
+  text-align: center;
 }
 
 .div_grid.home {
@@ -1167,6 +1168,11 @@ a {
   padding: 0px 60px 60px;
 }
 
+.logo._0._60._200 {
+  width: 250px;
+  padding-bottom: 0px;
+}
+
 .div-block-92 {
   display: inline-block;
   width: 300px;
@@ -1329,6 +1335,11 @@ a {
 
 .obraz.c {
   margin-bottom: 0px;
+}
+
+.obraz.c._30 {
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .obraz.corners {
@@ -1672,6 +1683,11 @@ a {
     margin-bottom: 0px;
   }
 
+  .head-title.h2 {
+    font-size: 32px;
+    line-height: 36px;
+  }
+
   .opis-projektu {
     padding-left: 20px;
   }
@@ -1680,6 +1696,11 @@ a {
     font-size: 31px;
     line-height: 38px;
     text-indent: -3px;
+  }
+
+  ._10 {
+    padding-right: 10px;
+    padding-left: 10px;
   }
 }
 
@@ -1974,6 +1995,11 @@ a {
     min-width: auto;
   }
 
+  .div_grid._0 {
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+
   .box-kategoria-tytul {
     -webkit-align-self: stretch;
     -ms-flex-item-align: stretch;
@@ -2208,11 +2234,31 @@ a {
   .logo {
     margin-right: 0px;
     margin-left: 0px;
+    padding: 10% 15% 15%;
+  }
+
+  .logo._40 {
+    padding: 10%;
   }
 
   .logo.l {
-    margin-right: 0px;
-    margin-left: 0px;
+    padding: 15%;
+  }
+
+  .logo._60 {
+    padding: 15%;
+  }
+
+  .logo._30 {
+    padding: 10%;
+  }
+
+  .logo._50 {
+    padding: 15%;
+  }
+
+  .logo._70 {
+    padding: 15%;
   }
 
   .html-embed-3 {
