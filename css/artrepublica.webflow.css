@@ -999,6 +999,11 @@ a {
   margin-left: 0px;
 }
 
+.div_grid.home {
+  margin-right: 0px;
+  margin-left: 0px;
+}
+
 .heading-2.white {
   color: #fff;
 }
