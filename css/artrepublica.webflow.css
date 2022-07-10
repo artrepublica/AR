@@ -307,13 +307,18 @@ a {
   border-top-right-radius: 0px;
 }
 
-.text-block {
+.zakladka {
+  margin-top: 0px;
+  margin-bottom: 0px;
   color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
 }
 
-.text-block.invert {
+.zakladka.invert {
   color: #000;
 }
 
@@ -1393,6 +1398,10 @@ a {
   align-items: flex-start;
 }
 
+.head-title {
+  margin-top: 0px;
+}
+
 .opis-projektu {
   width: 100vw;
   padding-right: 40px;
@@ -1410,6 +1419,29 @@ a {
 
 .paragraph-14 {
   font-size: 20px;
+}
+
+.heading-5 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+}
+
+.haslo {
+  font-family: gill-sans-nova, sans-serif;
+  font-size: 36px;
+  line-height: 42px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: 6px;
+  text-indent: -10px;
+  white-space: nowrap;
+  mix-blend-mode: multiply;
 }
 
 @media screen and (max-width: 991px) {
@@ -1626,6 +1658,12 @@ a {
   .opis-projektu {
     padding-left: 20px;
   }
+
+  .haslo {
+    font-size: 31px;
+    line-height: 38px;
+    text-indent: -3px;
+  }
 }
 
 @media screen and (max-width: 767px) {
@@ -1706,6 +1744,11 @@ a {
 
   .lottie-animation-2 {
     overflow: hidden;
+  }
+
+  .section-2._30 {
+    padding-right: 30px;
+    padding-left: 30px;
   }
 
   .txt {
@@ -2033,6 +2076,13 @@ a {
     margin-bottom: 40px;
     padding-left: 40px;
   }
+
+  .haslo {
+    font-size: 26px;
+    line-height: 32px;
+    letter-spacing: 12px;
+    white-space: normal;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -2159,6 +2209,10 @@ a {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
+  }
+
+  .haslo {
+    letter-spacing: 6px;
   }
 }
 
