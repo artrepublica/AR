@@ -996,7 +996,6 @@ a {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
-  text-align: center;
 }
 
 .div_grid._0 {
@@ -1313,8 +1312,8 @@ a {
 
 .link-txt {
   position: relative;
-  top: -30px;
-  color: #fff;
+  top: -38px;
+  text-align: center;
 }
 
 .link-txt.dark {
@@ -1338,7 +1337,7 @@ a {
 
 .obraz.corners.pading-20 {
   margin-top: 20px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 
 .video {
@@ -1603,6 +1602,10 @@ a {
 
   .immage_grid {
     max-width: 300px;
+  }
+
+  .div_grid.home {
+    text-align: center;
   }
 
   .zespol_box {
