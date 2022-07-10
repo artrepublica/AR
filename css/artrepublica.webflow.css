@@ -23,7 +23,6 @@ a {
 }
 
 .body {
-  display: block;
   background-color: #cfcfcf;
   background-image: none;
   background-position: 0px 0px;
@@ -373,10 +372,22 @@ a {
 }
 
 .section-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
-  max-width: 2550px;
   padding-top: 40px;
   padding-bottom: 40px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 .section-2.dark {
@@ -1339,7 +1350,9 @@ a {
 }
 
 .obraz.c {
+  max-width: 1440px;
   margin-bottom: 0px;
+  text-align: center;
 }
 
 .obraz.c._30 {
@@ -1553,10 +1566,6 @@ a {
     -webkit-flex: 0 0 auto;
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
-  }
-
-  .section-2 {
-    max-width: 2550px;
   }
 
   .txt._40 {
