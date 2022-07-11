@@ -1506,6 +1506,10 @@ a {
   margin-bottom: 10px;
 }
 
+._10._2 {
+  margin-top: 0px;
+}
+
 .video-2 {
   display: none;
 }
@@ -1566,7 +1570,6 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -2264,8 +2267,8 @@ a {
   ._10._2 {
     max-width: 350px;
     margin-top: 10px;
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 5px;
+    padding-left: 5px;
   }
 
   .center {
