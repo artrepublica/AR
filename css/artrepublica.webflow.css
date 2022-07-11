@@ -1527,6 +1527,21 @@ a {
   align-items: center;
 }
 
+._602 {
+  width: 100vw;
+  height: 60px;
+}
+
+._602.invert {
+  background-image: url('../images/BG_Dark_80.png');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.text-span-8 {
+  font-style: italic;
+}
+
 @media screen and (max-width: 991px) {
   .nav-link {
     font-size: 18px;
