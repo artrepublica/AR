@@ -1382,6 +1382,7 @@ a {
   transition: opacity 200ms ease;
   color: #fff;
   font-weight: 700;
+  text-decoration: underline;
 }
 
 .link-txt-white-bold:hover {
