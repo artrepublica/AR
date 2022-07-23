@@ -298,6 +298,7 @@ a {
 }
 
 .dzial.over.invert {
+  position: relative;
   background-color: #cfcfcf;
   background-image: none;
   background-size: auto;
@@ -407,6 +408,10 @@ a {
 .section-2.dark._2 {
   display: none;
   padding-bottom: 20px;
+}
+
+.section-2._0 {
+  padding-bottom: 0px;
 }
 
 .txt {
@@ -1025,6 +1030,11 @@ a {
   text-align: center;
 }
 
+.div_grid._0.white {
+  border-radius: 18px;
+  background-color: #fff;
+}
+
 .div_grid.home {
   margin-right: 0px;
   margin-left: 0px;
@@ -1182,17 +1192,23 @@ a {
 }
 
 .logo._0 {
+  width: auto;
+  height: 100%;
   padding: 0px;
   background-color: transparent;
 }
 
 .logo._0._60 {
-  padding: 0px 60px 60px;
+  padding: 0px 60px;
 }
 
 .logo._0._60._200 {
   width: 250px;
   padding-bottom: 0px;
+}
+
+.logo.rodzina {
+  background-color: transparent;
 }
 
 .div-block-92 {
@@ -1432,12 +1448,15 @@ a {
   font-weight: 600;
 }
 
+.image-15 {
+  border-radius: 18px;
+}
+
 .container-9 {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  overflow: hidden;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1453,6 +1472,13 @@ a {
   align-items: flex-start;
 }
 
+.container-9.centerp {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 .head-title {
   margin-top: 0px;
 }
@@ -1460,6 +1486,10 @@ a {
 .opis-projektu {
   width: 100vw;
   padding-right: 40px;
+}
+
+.opis-projektu._0 {
+  padding-right: 0px;
 }
 
 .podtytu {
@@ -1477,7 +1507,7 @@ a {
 }
 
 .opis-projektu-txt {
-  max-width: 467.921875vw;
+  max-width: 100vw;
 }
 
 .heading-5 {
@@ -1586,6 +1616,7 @@ a {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+  width: 960px;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
   -webkit-flex-direction: row;
@@ -1595,6 +1626,47 @@ a {
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
   align-items: flex-start;
+}
+
+.div-block-96 {
+  max-width: 1420px;
+}
+
+.image-17 {
+  margin: 20px;
+}
+
+.block-h3 {
+  width: 100vw;
+}
+
+.list-item {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.div-block-97 {
+  width: 100vw;
+  padding-right: 60px;
+}
+
+.video-3 {
+  height: 0%;
+}
+
+.image-18 {
+  position: relative;
+  z-index: -1;
+}
+
+.image-19 {
+  width: 65vw;
+  max-width: 1280px;
+}
+
+.text-span-9 {
+  font-style: italic;
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
@@ -1698,10 +1770,6 @@ a {
     padding-left: 0px;
   }
 
-  .container-8 {
-    overflow: hidden;
-  }
-
   .image-4 {
     width: 200px;
   }
@@ -1758,6 +1826,10 @@ a {
     border-radius: 0px;
   }
 
+  .logo._0 {
+    width: 50%;
+  }
+
   .dropdown-toggle {
     padding-left: 10px;
     font-size: 18px;
@@ -1812,6 +1884,17 @@ a {
     margin-bottom: 0px;
   }
 
+  .image-15 {
+    border-radius: 0px;
+  }
+
+  .container-9.centerp {
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
   .head-title.h2 {
     font-size: 32px;
     line-height: 36px;
@@ -1836,6 +1919,26 @@ a {
     max-width: 40%;
     margin-top: 0px;
     padding-left: 0px;
+  }
+
+  .center {
+    width: 720px;
+  }
+
+  .div-block-97 {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .obraz_spad {
+    overflow: hidden;
+  }
+
+  .image-19 {
+    width: 95vw;
+    max-width: 1280px;
+    padding-right: 20px;
+    padding-left: 20px;
   }
 }
 
@@ -2207,6 +2310,7 @@ a {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    max-width: 100%;
   }
 
   .obraz.corners.pading-20 {
@@ -2263,9 +2367,21 @@ a {
     align-items: center;
   }
 
+  .container-9.centerp {
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+
   .opis-projektu {
     margin-bottom: 40px;
     padding-left: 40px;
+  }
+
+  .opis-projektu._0 {
+    margin-bottom: 0px;
+    padding-right: 40px;
   }
 
   .haslo {
@@ -2288,6 +2404,7 @@ a {
   }
 
   .center {
+    width: auto;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -2297,6 +2414,21 @@ a {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+
+  .block-h3 {
+    margin-bottom: 40px;
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .div-block-97 {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+
+  .obraz_spad {
+    height: 100%;
   }
 }
 
@@ -2433,6 +2565,10 @@ a {
     padding: 15%;
   }
 
+  .logo._0 {
+    width: 80%;
+  }
+
   .video.size {
     width: 100%;
     padding: 0px;
@@ -2466,6 +2602,10 @@ a {
     max-width: none;
     padding-right: 30px;
     padding-left: 30px;
+  }
+
+  ._602._0 {
+    display: none;
   }
 
   .center {
