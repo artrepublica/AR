@@ -2370,17 +2370,9 @@ a {
     background-color: #333;
   }
 
-  .image-15 {
-    max-width: 120%;
-  }
-
   .pading-20 {
     padding-right: 20px;
     padding-left: 20px;
-  }
-
-  .image-16 {
-    max-width: 150%;
   }
 
   .container-9 {
@@ -2456,6 +2448,14 @@ a {
   .div-block-97 {
     padding-right: 40px;
     padding-left: 40px;
+  }
+
+  .image-150 {
+    max-width: 150%;
+  }
+
+  .image-120 {
+    max-width: 120%;
   }
 }
 
@@ -2616,10 +2616,6 @@ a {
   .html-embed-3 {
     padding: 3px;
     border-radius: 10px;
-  }
-
-  .image-15 {
-    width: 120vw;
   }
 
   .container-9 {
