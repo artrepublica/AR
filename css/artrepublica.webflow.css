@@ -1193,8 +1193,8 @@ a {
 
 .logo._0 {
   width: auto;
-  height: 100%;
-  padding: 0px;
+  max-height: 400px;
+  padding: 60px 60px 40px;
   background-color: transparent;
 }
 
@@ -1507,7 +1507,7 @@ a {
 }
 
 .opis-projektu-txt {
-  max-width: 100vw;
+  max-width: 75vw;
 }
 
 .heading-5 {
@@ -1571,8 +1571,7 @@ a {
   display: flex;
   overflow: hidden;
   width: 100vw;
-  margin-top: 60px;
-  margin-bottom: 20px;
+  margin-top: 40px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: reverse;
   -webkit-flex-direction: column-reverse;
@@ -1597,8 +1596,16 @@ a {
 }
 
 ._602 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   width: 100vw;
   height: 60px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 ._602.invert {
@@ -1654,19 +1661,29 @@ a {
   height: 0%;
 }
 
-.image-18 {
-  position: relative;
-  z-index: -1;
+.obraz_spad {
+  overflow: hidden;
+  width: 100vw;
 }
 
 .image-19 {
   width: 65vw;
-  max-width: 1280px;
+  max-width: 960px;
 }
 
 .text-span-9 {
   font-style: italic;
   font-weight: 700;
+}
+
+.container-10 {
+  margin-bottom: 10px;
+}
+
+.div-block-98 {
+  width: 100vw;
+  height: 0px;
+  border-top: 1px dashed #000;
 }
 
 @media screen and (max-width: 991px) {
@@ -1828,6 +1845,7 @@ a {
 
   .logo._0 {
     width: 50%;
+    padding-top: 0px;
   }
 
   .dropdown-toggle {
@@ -1904,6 +1922,10 @@ a {
     padding-left: 20px;
   }
 
+  .opis-projektu-txt {
+    max-width: 100vw;
+  }
+
   .haslo {
     font-size: 31px;
     line-height: 38px;
@@ -1935,7 +1957,7 @@ a {
   }
 
   .image-19 {
-    width: 95vw;
+    width: 85vw;
     max-width: 1280px;
     padding-right: 20px;
     padding-left: 20px;
@@ -2272,6 +2294,12 @@ a {
     height: 280px;
   }
 
+  .logo._0 {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    padding: 0px;
+  }
+
   .dropdown-list.w--open {
     display: block;
     padding-right: 20px;
@@ -2375,13 +2403,16 @@ a {
   }
 
   .opis-projektu {
-    margin-bottom: 40px;
     padding-left: 40px;
   }
 
   .opis-projektu._0 {
     margin-bottom: 0px;
     padding-right: 40px;
+  }
+
+  .opis-projektu-txt {
+    max-width: 100vw;
   }
 
   .haslo {
@@ -2399,6 +2430,7 @@ a {
   ._10._2 {
     max-width: 350px;
     margin-top: 10px;
+    margin-bottom: 0px;
     padding-right: 5px;
     padding-left: 5px;
   }
@@ -2417,7 +2449,6 @@ a {
   }
 
   .block-h3 {
-    margin-bottom: 40px;
     padding-right: 40px;
     padding-left: 40px;
   }
@@ -2425,10 +2456,6 @@ a {
   .div-block-97 {
     padding-right: 40px;
     padding-left: 40px;
-  }
-
-  .obraz_spad {
-    height: 100%;
   }
 }
 
@@ -2569,6 +2596,11 @@ a {
     width: 80%;
   }
 
+  .obraz.c._0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+
   .video.size {
     width: 100%;
     padding: 0px;
@@ -2584,6 +2616,10 @@ a {
   .html-embed-3 {
     padding: 3px;
     border-radius: 10px;
+  }
+
+  .image-15 {
+    width: 120vw;
   }
 
   .container-9 {
@@ -2602,6 +2638,10 @@ a {
     max-width: none;
     padding-right: 30px;
     padding-left: 30px;
+  }
+
+  .video-holder {
+    margin-top: 20px;
   }
 
   ._602._0 {
