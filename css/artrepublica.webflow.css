@@ -998,6 +998,10 @@ a {
   width: 920px;
 }
 
+.link_kategoria.off {
+  cursor: default;
+}
+
 .immage_grid {
   overflow: hidden;
   width: 300px;
@@ -1352,6 +1356,20 @@ a {
   -webkit-transform: translate(0px, -5px);
   -ms-transform: translate(0px, -5px);
   transform: translate(0px, -5px);
+}
+
+.hover-move.off {
+  box-shadow: none;
+  -webkit-transition-property: none;
+  transition-property: none;
+}
+
+.hover-move.off:hover {
+  box-shadow: none;
+  opacity: 0.85;
+  -webkit-transform: none;
+  -ms-transform: none;
+  transform: none;
 }
 
 .link-txt {
