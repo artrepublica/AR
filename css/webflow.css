@@ -98,6 +98,86 @@ html.w-mod-touch * {
 input.w-button {
   -webkit-appearance: button;
 }
+:where(button.w-popover-trigger) {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+:where(button.w-modal-trigger) {
+  background-color: transparent;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  font: inherit;
+  line-height: inherit;
+  margin: 0;
+  padding: 0;
+  text-align: inherit;
+  text-decoration: inherit;
+}
+:where(.w-popover) {
+  position-anchor: auto;
+  position-area: top;
+}
+:where(
+  .w-popover[data-w-popover-backdrop-animated],
+  .w-modal[data-w-popover-backdrop-animated]
+)::backdrop {
+  animation: var(--w-backdrop-animation, none);
+}
+:where(.w-popover, .w-modal) {
+  --w-backdrop-animation: initial;
+}
+.w-popover-mask {
+  position: fixed !important;
+  inset: 0 !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  border: 0 !important;
+  opacity: 0 !important;
+  transform: none !important;
+  clip-path: none !important;
+  pointer-events: auto !important;
+}
+.w-popover-mask[popover] {
+  translate: none !important;
+  rotate: none !important;
+  scale: none !important;
+}
+.w-popover-mask::backdrop {
+  display: none !important;
+}
+.w-popover-mask:not(:popover-open) {
+  display: none !important;
+}
+@supports not selector(:popover-open) {
+  .w-popover-mask {
+    display: none !important;
+  }
+}
+.w-popover[popover]:not(:popover-open) {
+  display: none;
+}
+.w-modal:not([open]):not([popover]) {
+  display: none;
+}
+.w-modal[popover]:not(:popover-open) {
+  display: none;
+}
+:where(.w-modal[data-w-modal-lock-scroll]) {
+  overscroll-behavior: contain;
+}
 html[data-w-dynpage] [data-w-cloak] {
   color: transparent !important;
 }
@@ -106,6 +186,9 @@ html[data-w-dynpage] [data-w-cloak] {
 }
 pre.w-code-block code {
   all: inherit;
+}
+pre.w-code-block code > span {
+  display: block !important;
 }
 .w-optimization {
   display: contents;
@@ -1118,11 +1201,6 @@ textarea.w-select {
 .w-dropdown-link:focus {
   outline: 0;
 }
-@media screen and (max-width: 767px) {
-  .w-nav-brand {
-    padding-left: 10px;
-  }
-}
 /**
  * ## Note
  * Safari (on both iOS and OS X) does not handle viewport units (vh, vw) well.
@@ -1682,6 +1760,10 @@ textarea.w-select {
 .w--nav-dropdown-list-open {
   position: static;
 }
+/**
+ * NOTE: These rules are overridden in site-designer.less to use container queries instead of media queries
+ * when the navbar is inside a Frame on the Open Canvas.
+ */
 @media screen and (max-width: 991px) {
   .w-nav[data-collapse='medium'] .w-nav-menu {
     display: none;
@@ -1788,10 +1870,11 @@ textarea.w-select {
 .wf-layout-layout {
   display: grid;
 }
-.w-code-component > * {
-  height: 100%;
-  width: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
+.w-layout-grid {
+  display: grid;
+  grid-auto-columns: 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
 }

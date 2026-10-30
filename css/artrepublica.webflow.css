@@ -1,3 +1,19 @@
+@font-face {
+  font-family: Sundaylove;
+  src: url('../fonts/SundayloveBold.woff2') format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sundaylove;
+  src: url('../fonts/Sundaylove.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --black: black;
   --light-grey: #cfcfcf;
@@ -323,10 +339,6 @@ a {
 
 .section-2._0 {
   padding-bottom: 0;
-}
-
-.txt {
-  text-align: justify;
 }
 
 .txt._40 {
@@ -753,8 +765,8 @@ a {
 }
 
 .paragraph-10 {
-  color: var(--white);
   max-width: 420px;
+  color: var(--white);
 }
 
 .div-block-18 {
@@ -1061,7 +1073,7 @@ a {
   background-position: 0 0;
   background-size: auto;
   border-radius: 18px;
-  transition: opacity .2s, transform .2s, opacity .2s;
+  transition: opacity .2s, transform .2s;
   overflow: hidden;
   box-shadow: 1px 1px 3px #000;
 }
@@ -1160,10 +1172,11 @@ a {
   font-size: 19px;
 }
 
-.heading-3 {
-  font-size: 20px;
+.lead {
+  text-align: left;
+  font-size: 28px;
   font-weight: 400;
-  line-height: 28px;
+  line-height: 36px;
 }
 
 .heading-4 {
@@ -1590,6 +1603,11 @@ a {
     margin-bottom: 0;
   }
 
+  .lead {
+    font-size: 26px;
+    line-height: 32px;
+  }
+
   .image-15 {
     border-radius: 0;
   }
@@ -1723,6 +1741,7 @@ a {
 
   .lottie-animation {
     width: 480px;
+    margin-top: 20px;
   }
 
   .lottie-animation-2 {
@@ -1968,6 +1987,11 @@ a {
     overflow: hidden;
   }
 
+  .lead {
+    font-size: 24px;
+    line-height: 28px;
+  }
+
   .pading-20 {
     padding-left: 20px;
     padding-right: 20px;
@@ -2172,6 +2196,11 @@ a {
   .html-embed-3 {
     border-radius: 10px;
     padding: 3px;
+  }
+
+  .lead {
+    font-size: 22px;
+    line-height: 26px;
   }
 
   .container-9 {
