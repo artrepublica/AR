@@ -861,7 +861,7 @@ a {
 }
 
 .bg {
-  background-image: url('../images/HomePage_1.jpg');
+  background-image: url('../images/HomePage_1.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -870,21 +870,21 @@ a {
 }
 
 .bg._2 {
-  background-image: url('../images/HomePage_3.jpg');
+  background-image: url('../images/HomePage_3.webp');
 }
 
 .bg._3 {
-  background-image: url('../images/HomePage_4.jpg');
+  background-image: url('../images/HomePage_4.webp');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .bg._4 {
-  background-image: url('../images/HomePage_2.jpg');
+  background-image: url('../images/HomePage_2.webp');
 }
 
 .bg._5 {
-  background-image: url('../images/HomePage_5.jpg');
+  background-image: url('../images/HomePage_5.webp');
 }
 
 .kompleks {
@@ -899,7 +899,7 @@ a {
 }
 
 .dv-fc {
-  background-image: url('../images/billboard_mockup.jpg');
+  background-image: url('../images/billboard_mockup.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
@@ -1368,7 +1368,7 @@ a {
 }
 
 .body-2 {
-  background-image: url('../images/HomePage_1.jpg');
+  background-image: url('../images/HomePage_1.webp');
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: cover;
