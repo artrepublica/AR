@@ -1203,6 +1203,27 @@ a {
   margin-top: 0;
 }
 
+.head-title.h2.ar-heading-detail {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.head-title.h2.ar-heading-section {
+  font-size: 32px;
+  line-height: 36px;
+}
+
+.head-title.ar-heading-detail {
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.head-title.ar-heading-label {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+}
+
 .opis-projektu {
   width: 100vw;
   padding-right: 40px;
