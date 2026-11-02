@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://artrepublica.pl/sitemap.xml
