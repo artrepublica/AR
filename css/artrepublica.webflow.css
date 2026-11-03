@@ -1008,12 +1008,14 @@ a {
 .dropdown-list.w--open {
   -webkit-backdrop-filter: none;
   backdrop-filter: none;
+  text-align: left;
   background-image: url('../images/bg_len_black.jpg');
   background-position: 0 0;
   background-size: auto;
   border-bottom-right-radius: 18px;
   border-bottom-left-radius: 18px;
-  display: flex;
+  flex-flow: column;
+  display: block;
   overflow: hidden;
 }
 
@@ -1457,7 +1459,9 @@ a {
   .nav-menu {
     -webkit-backdrop-filter: blur(30px);
     backdrop-filter: blur(30px);
-    background-color: #000000b3;
+    background-image: url('../images/bg_len_black.jpg');
+    background-position: 0 0;
+    background-size: auto;
     justify-content: space-around;
     margin-left: 0;
     padding-top: 10px;
@@ -1591,7 +1595,7 @@ a {
     background-size: auto;
     flex-wrap: wrap;
     padding-left: 0;
-    display: flex;
+    display: block;
   }
 
   .dropdown {
