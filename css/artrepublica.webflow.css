@@ -83,12 +83,13 @@ a {
 
 .nav-link {
   color: #fff;
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 10px;
-  font-family: fira-sans, sans-serif;
-  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
   transition: transform .2s, opacity .2s;
 }
 
@@ -987,12 +988,13 @@ a {
 
 .dropdown-toggle {
   color: var(--white);
-  letter-spacing: 2px;
+  letter-spacing: 1.5px;
   text-transform: uppercase;
   padding-left: 10px;
   padding-right: 30px;
-  font-family: fira-sans, sans-serif;
-  font-size: 14px;
+  font-family: Open Sans, sans-serif;
+  font-size: 13px;
+  font-weight: 600;
   transition: transform .2s, opacity .2s;
 }
 
@@ -1948,6 +1950,10 @@ a {
     margin-top: 20px;
     margin-bottom: 60px;
     padding: 0;
+  }
+
+  .dropdown-toggle {
+    font-size: 20px;
   }
 
   .dropdown-list.w--open {
