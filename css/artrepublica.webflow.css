@@ -443,14 +443,14 @@ a {
 
 .text-span-3 {
   color: red;
-  font-family: gill-sans-nova, sans-serif;
+  font-family: Open Sans Local, Tahoma, sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
 
 .text-span-4 {
   color: var(--black);
-  font-family: gill-sans-nova, sans-serif;
+  font-family: Open Sans Local, Tahoma, sans-serif;
   font-size: 22px;
   font-weight: 600;
 }
@@ -490,7 +490,7 @@ a {
   flex-direction: column;
   justify-content: space-around;
   align-items: flex-start;
-  font-family: gill-sans-nova, sans-serif;
+  font-family: Open Sans Local, Tahoma, sans-serif;
   font-weight: 500;
   display: flex;
 }
@@ -498,7 +498,7 @@ a {
 .paragraph-5 {
   align-self: center;
   margin-bottom: 0;
-  font-family: gill-sans-nova, sans-serif;
+  font-family: Open Sans Local, Tahoma, sans-serif;
   font-size: 18px;
   font-weight: 500;
 }
@@ -624,7 +624,7 @@ a {
 
 .text-span-6 {
   white-space: nowrap;
-  font-family: gill-sans-nova, sans-serif;
+  font-family: Open Sans Local, Tahoma, sans-serif;
   font-size: 22px;
   font-weight: 400;
 }
