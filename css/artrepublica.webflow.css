@@ -221,15 +221,6 @@ a {
   overflow: hidden;
 }
 
-.paragraph-4 {
-  text-align: center;
-  letter-spacing: 10px;
-  margin-top: -9px;
-  margin-bottom: 46px;
-  font-family: century-gothic, sans-serif;
-  font-size: 81px;
-}
-
 .text-span {
   font-weight: 700;
 }
@@ -1780,12 +1771,6 @@ a {
     width: 300px;
   }
 
-  .paragraph-4 {
-    letter-spacing: 6px;
-    margin-top: -14px;
-    font-size: 50px;
-  }
-
   .lottie-animation {
     width: 480px;
     margin-top: 20px;
@@ -2148,11 +2133,6 @@ a {
 
   .image-2 {
     width: 200px;
-  }
-
-  .paragraph-4 {
-    letter-spacing: 3px;
-    font-size: 35px;
   }
 
   .lottie-animation {
